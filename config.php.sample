@@ -1,0 +1,48 @@
+<?php
+
+/*
+ *   Aigap Web SDK v 1.0
+ *   
+ *   Bütün hakları 3his bilgi tenkolojileri san. ve tic. ltd. şti. ye aittir.
+ *   Kullanım şartları buradaki bağlantıda mevcuttur : https://sdk.aigap.com/web/agreement/
+ *   Internet adresi : https://sdk.aigap.com/web/
+ * 
+ * 
+ * 
+ * 
+ */
+
+$config["projectID"] = ""; // Proje numaranız
+$config["developerID"] = ""; // Geliştirici numaranız
+$config["dreamerID"] = ""; //
+$config["companyID"] = ""; // Firma numaranız
+$config["iCompanyID"] = ""; // Alt firma numaranız
+$config["fwID"] = ""; // Aigap özel tanımları
+$config["fwActionTypeID"] = ""; // Aigap özel tanımları
+$config["appID"] = ""; // Uygulama numarası
+$config["countryID"] = ""; // Ülke numarası
+$config["langCode"] = "en"; // Standart dil kodu
+$config["visitorUser"] = ""; // Standart kullanıcı adı Örn: visitor@aigap.com
+$config["visitorPassword"] = ""; // Standart kullanıcı şifresi 2 x MD5 ile kriptolanmış olmalıdır Örn: MD5( MD5( "şifreniz" ) )
+
+$config["AES256_key"] = ""; // AES256 şifresi sayfanın cookie içerisinde tuttuğu verilerin şifrelenmesinde kullanılan şifre
+$config["AES256_vector"] = ""; // AES256 şifresi sayfanın cookie içerisinde tuttuğu verilerin şifrelenmesinde kullanılan vektör
+        
+$config["keys"][0]["privateKey"] = ""; // Aigap özel tanımları
+$config["keys"][0]["publicKey"] = ""; // Aigap özel tanımları
+$config["keys"][0]["encTypeID"] = ""; // Aigap özel tanımları
+$config["keys"][0]["algorithmTypeID"] = ""; // Aigap özel tanımları
+$config["keys"][0]["keyID"] = ""; // Aigap özel tanımları
+
+
+// Bu ayarları değiştirmeyin
+
+$config["oProjectID"] = ""; // Proje numarası
+$config["deviceTypeID"] = "7";
+$config["userTypeID"] = "7";
+
+$config["pageUrl"] = ""; // Sayfanızı adresi Örn: http://www.aigap.com
+$config["pageToken"] = ""; // Her sayfa için özel olarak üretilir aigap tarafından size verilir
+$config["cacheEnable"] = "0"; // Sayfa içerikleri yansıma html ile içeri kaydedilir
+?>
+
